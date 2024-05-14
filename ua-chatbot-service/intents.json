@@ -1,0 +1,96 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "howru",
+      "patterns": [
+        "How are you doing",
+        "How r u",
+        "whatsup",
+        "wsup",
+        "how is it hanging",
+        "How are the things",
+        "How do you do"
+      ],
+      "responses": [
+        "I am doing great! Thanks.",
+        "All is well",
+        "How do you do"
+      ]
+    },
+    {
+      "tag": "what_is_UA",
+      "patterns": [
+        "What is UA",
+        "What is the full form of UA",
+        "I want to know about UA"
+      ],
+      "responses": [
+        "UA full form is, Unified Assesment.",
+        "UA is a process of employees evaluation by Global Competency Framework requirements using international committees of experts to recommend Candidates for promotion to a particular Title and Primary Skill."
+      ]
+    },
+    {
+      "tag": "UA_Timelines",
+      "patterns": [
+        "What is the time RD can wait for applying for UA",
+        "RD UA time"
+      ],
+      "responses": [
+        "RD should wait for 12 months after joining EPAM to apply for UA"
+      ]
+    },
+    {
+      "tag": "Feedback_Timeline",
+      "patterns": [
+        "How much time usually passes between a request, a session, and final feedback?",
+        "How much time usually take to get final feedback?"
+      ],
+      "responses": [
+        "A request is assigned to a committee within three-four business days after it's been submitted. For another seven days, the committee reviews the documents and schedules a session. The session is usually scheduled a week after the documents review. When the session is over, it's another week during which the committee prepares the final feedback and completes the request. In total, it’s about a month from the request submitting to its completion. However, the SLAs for assigning and scheduling a request can differ depending on the selected preferred month of the session."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+
+
+************  Need python version 3.9.9  ************
+
+In chatbot folder, run the below command to build docker image.
+docker build --tag python-docker .
+
+docker run --publish 5000:5000 python-docker 
+
+Postman
+--------
+http://localhost:5000/chatbot
+
+    {
+        "question": "what is ua"
+    }
+
+
+docker os
+docker stop
+docker rm
+
