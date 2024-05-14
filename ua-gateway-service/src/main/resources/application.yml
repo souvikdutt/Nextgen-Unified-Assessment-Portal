@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: ua-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: ua-service
+          uri: lb://ua-service
+          predicates:
+            - Path=/employee/**, /mentees/**, /mentor/**, /request/**, /swagger-ui.html/**, /h2-ui/**
+server:
+  port: 8888
+
+eka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    hostname: localhost
